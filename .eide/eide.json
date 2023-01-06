@@ -1,0 +1,83 @@
+{
+  "name": "chuangxin",
+  "type": "C51",
+  "dependenceList": [],
+  "srcDirs": [],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "Source Group 1",
+        "files": [
+          {
+            "path": "key.c"
+          },
+          {
+            "path": "key.h"
+          },
+          {
+            "path": "led.c"
+          },
+          {
+            "path": "led.h"
+          },
+          {
+            "path": "main.c"
+          },
+          {
+            "path": "publish.c"
+          },
+          {
+            "path": "publish.h"
+          },
+          {
+            "path": "smg.c"
+          },
+          {
+            "path": "smg.h"
+          },
+          {
+            "path": "uart.c"
+          },
+          {
+            "path": "uart.h"
+          }
+        ],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "cb760e2f3e7ee63ac473496a98e21bd4"
+  },
+  "targets": {
+    "Target 1": {
+      "excludeList": [],
+      "toolchain": "Keil_C51",
+      "compileConfig": {
+        "options": "null"
+      },
+      "uploader": "Custom",
+      "uploadConfig": {
+        "bin": "",
+        "commandLine": "",
+        "eraseChipCommand": ""
+      },
+      "uploadConfigMap": {},
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "../../Keil51/C51/INC/Atmel"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": []
+      }
+    }
+  },
+  "version": "3.3"
+}
